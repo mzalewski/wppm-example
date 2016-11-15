@@ -1,0 +1,18 @@
+{
+  "name": "hotsource/wppm-example-plugin",
+  "description": "WPPM Example Plugin",
+  "type": "wordpress-plugin",
+  "require": {
+      "php": "^5.3.3 || ^7.0",
+      "hotsource/wppm": "v0.1.1-alpha",
+      "composer/installers": "*",
+      "hanamura/wp-post-type":"1.1.0"
+  },
+  "license": "GNU General Public License v2.0",
+  "authors": [
+      {
+          "name": "Matthew Zalewski",
+          "email": "matthew@hotsource.io"
+      }
+  ]
+}
